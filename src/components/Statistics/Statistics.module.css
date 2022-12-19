@@ -1,0 +1,23 @@
+.statList {
+  padding: 0 10px;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+}
+
+.statItem {
+  font-size: 22px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.statitem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.statItem:nth-last-child(-n + 2) {
+  color: #30d5c8;
+  font-weight: 700;
+}
